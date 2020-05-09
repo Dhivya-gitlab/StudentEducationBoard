@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudentEducationBoardService.Data\StudentEducationBoardService.Data.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentEducationBoardService.Domain\StudentEducationBoardService.Domain.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>
